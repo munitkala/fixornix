@@ -3,7 +3,7 @@
 Fix it or nix it. fixornix reads your repo's open Dependabot alerts and tells you what to do with each one.
 
 ```
-$ npx fixornix
+$ npx github:munitkala/fixornix
 owner/app: 3 open alerts
 
 Fix now (1)
@@ -30,7 +30,7 @@ or **not in your build**.
 Run it in your repo with Node.js 18+. It uses your `gh` login or a `GITHUB_TOKEN` that can read Dependabot alerts.
 
 ```
-npx fixornix [--target x86_64-pc-windows-msvc] [--markdown report.md] [--json] [--dismiss --yes]
+npx github:munitkala/fixornix [--target x86_64-pc-windows-msvc] [--markdown report.md] [--json] [--dismiss --yes]
 ```
 
 - `--target`: the Rust targets you ship (default: this machine's)
