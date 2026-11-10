@@ -1,0 +1,35 @@
+{
+  "name": "fixornix",
+  "version": "0.1.0",
+  "description": "Sort your open Dependabot alerts into fix now, blocked, no fix yet and safe to dismiss. Works with npm, yarn, pnpm and Cargo.",
+  "bin": {
+    "fixornix": "fixornix.js"
+  },
+  "files": [
+    "fixornix.js"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "dependabot",
+    "dependabot-alerts",
+    "security",
+    "vulnerability",
+    "vulnerabilities",
+    "triage",
+    "supply-chain-security",
+    "dependencies",
+    "npm",
+    "yarn",
+    "pnpm",
+    "cargo",
+    "rust",
+    "github",
+    "cli"
+  ],
+  "license": "MIT"
+}
